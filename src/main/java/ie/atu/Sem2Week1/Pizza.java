@@ -1,6 +1,6 @@
 package ie.atu.Sem2Week1;
 
-public class Pizza {
+public class Pizza implements MenuItem{
     String name;
     double price;
     String description;
@@ -33,5 +33,14 @@ public class Pizza {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", description='" + description + '\'' +
+                '}';
     }
 }
