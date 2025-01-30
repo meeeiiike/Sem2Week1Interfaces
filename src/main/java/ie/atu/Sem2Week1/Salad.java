@@ -37,10 +37,6 @@ public class Salad implements MenuItem{
 
     @Override
     public String toString() {
-        return "Salad{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", description='" + description + '\'' +
-                '}';
+        return name + ", " + price + ", Ingredients: " + description;
     }
 }

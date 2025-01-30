@@ -40,10 +40,6 @@ public class Burger implements MenuItem{
 
     @Override
     public String toString() {
-        return "Burger{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", description='" + description + '\'' +
-                '}';
+        return name + ", " + price + ", Ingredients: " + description;
     }
 }
